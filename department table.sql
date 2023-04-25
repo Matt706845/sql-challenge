@@ -1,0 +1,17 @@
+Create Table departments(
+dept_no INT,
+dept_name Varchar(8) Not Null
+);
+
+Select * from departments;
+
+Insert into departments (dept_no, dept_name) 
+Values (d001,'Marketing'),
+(d002,'Finance'),
+(d003,'Human Resources'),
+(d004,'Production'),
+(d005,'Development'),
+(d006,'Quality Management'),
+(d007,'Sales'),
+(d008,'Research'),
+(d009,'Customer Service');
